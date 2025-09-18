@@ -12,6 +12,7 @@ import SimpleDialogDemo from "./Components/Dialog";
 import IntroDivider from "./Components/Divider";
 import FloatingActionButtons from "./Components/Fab";
 import FloatingActionButtonExtendedSize from "./Components/Fab1";
+import Header from "./Components/Header";
 import SvgMaterialIcons from "./Components/Icons";
 import FolderList from "./Components/List";
 import CircularColor from "./Components/Progress";
@@ -33,6 +34,7 @@ import Types from "./Components/Typography";
 function App() {
   return (
     <div className="App1">
+      <Header />
       <AutoComplete />
       <BasicButtons />
       <GroupSizesColors />
